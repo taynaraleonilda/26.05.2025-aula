@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serviços - Rota Rural Mercedes</title>
+
+  <!-- Fontes e Estilos -->
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Estilo para os títulos com a nova fonte */
+    .descricao__titulo {
+      font-family: 'Cinzel', serif; /* Fonte mais impactante */
+      font-size: 5em; /* Tamanho grande, mas ajustado */
+      font-weight: 700;
+      color: #3A6351;
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    /* Estilo para o texto com um tamanho ligeiramente reduzido */
+    .descricao__texto {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5em; /* Texto um pouco menor */
+      color: #6B6B6B;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    /* Estilo para os botões "Ver mais" */
+    .botao {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #558b2f;
+      color: white;
+      font-size: 1.2em;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      margin-top: 20px; /* Um pequeno espaço acima */
+      text-align: center; /* Centraliza o texto dentro do botão */
+    }
+
+    .botao:hover {
+      background-color: #4a6b3d;
+      transform: translateY(-5px);
+    }
+
+    .botao:active {
+      transform: translateY(0);
+    }
+
+    /* Centralizando o contêiner do botão */
+    .container__descricao {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Barra de navegação marrom maior cobrindo o logo -->
+  <div style="background-color: #3A6351; padding: 50px 0; position: relative;">
+    <nav style="display: flex; justify-content: center; align-items: center; text-align: center;">
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; align-items: center; width: 100%; position: absolute; top: 50%; transform: translateY(-50%);">
+        <li style="margin: 0 40px; font-size: 1.5em; display: flex; align-items: center; justify-content: center;">
+          <a href="index.html" style="color: white; text-decoration: none; display: flex; align-items: center; justify-content: center; padding: 10px 20px; background-color: #558b2f; border-radius: 5px; font-weight: bold;">Home</a>
+        </li>
+        <li style="margin: 0 40px; font-size: 1.5em; display: flex; align-items: center; justify-content: center;">
+          <a href="feedback.html" style="color: white; text-decoration: none; display: flex; align-items: center; justify-content: center; padding: 10px 20px; background-color: #558b2f; border-radius: 5px; font-weight: bold;">Feedback</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Logo centralizada -->
+    <h1 style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%);">
+      <img src="img/logo2.png" class="imagem_h1" alt="Logo Rota Rural Mercedes" style="max-width: 200px;" />
+    </h1>
+  </div>
+
+  <!-- Tópico: Tudo -->
+  <section class="container secundario" style="background-color: #F2E9DC;">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Tudo</h2>
+      <p class="descricao__texto">Descubra tudo o que a Rota Rural Mercedes tem a oferecer, unindo cultura, lazer, comércio e gastronomia em um só lugar. Aqui o campo abre os portões e a cidade chega de braços abertos! Viva essa experiência onde o rural e o urbano se encontram pra celebrar juntos!</p>
+      <a href="tudo.html" class="botao">Ver mais</a>
+    </div>
+    <img src="img/tudo.png" alt="Tudo sobre a Rota Rural" class="secundario__imagem" />
+  </section>
+
+  <!-- Tópico: Lazer -->
+  <section class="container secundario" style="background-color: #F2E9DC;">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Lazer</h2>
+      <p class="descricao__texto">Explore espaços verdes, parques e ambientes ideais para relaxar com a família e amigos.</p>
+      <a href="lazer.html" class="botao">Ver mais</a>
+    </div>
+    <img src="img/lazer.png" alt="Parques e lazer" class="secundario__imagem" />
+  </section>
+
+  <!-- Tópico: Igrejas -->
+  <section class="container secundario" style="background-color: #F2E9DC;">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Igrejas</h2>
+      <p class="descricao__texto">Descubra as igrejas e capelas históricas da zona rural, marcos religiosos e culturais da comunidade.</p>
+      <a href="igreja.html" class="botao">Ver mais</a>
+    </div>
+    <img src="img/igreja.png" alt="Igrejas na zona rural" class="secundario__imagem" />
+  </section>
+
+  <!-- Tópico: Comércio -->
+  <section class="container secundario" style="background-color: #F2E9DC;">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Comércio</h2>
+      <p class="descricao__texto">Conheça os principais comércios locais da zona rural e fortaleça a economia da região.</p>
+      <a href="comercio.html" class="botao">Ver mais</a>
+    </div>
+    <img src="img/comercio.png" alt="Comércio local" class="secundario__imagem" />
+  </section>
+
+  <!-- Tópico: Lanchonetes -->
+  <section class="container secundario" style="background-color: #F2E9DC;">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Lanchonetes</h2>
+      <p class="descricao__texto">Saboreie delícias caseiras feitas com ingredientes frescos da própria região.</p>
+      <a href="lanchonete.html" class="botao">Ver mais</a>
+    </div>
+    <img src="img/lanchonete.png" alt="Lanches e comidas típicas" class="secundario__imagem" />
+  </section>
+
+  <!-- Tópico: Historia de Mercedes -->
+  <section class="container secundario" style="background-color: #F2E9DC;">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">História de Mercedes</h2>
+      <p class="descricao__texto">Conheça a rica história de Mercedes, desde sua fundação até os dias atuais, e descubra as raízes que moldaram essa comunidade única.</p>
+      <a href="historia.html" class="botao">Ver mais</a>
+    </div>
+    <img src="img/historia.png" alt="História de Mercedes" class="secundario__imagem" />
+  </section>
+
+  <!-- Carrossel de locais -->
+  <section class="carrossel" style="background-color: #F2E9DC;">
+    <h2 class="carrossel__titulo" style="color: #3A6351;">Locais em destaque</h2>
+    <p class="descricao__carrossel" style="font-size: 1.5em; color: #6B6B6B;">Visitar a Rota é como voltar no tempo. Cada capela, venda antiga ou propriedade familiar traz lembranças de um passado cheio de histórias, tradições e encontros. Para os mais velhos, é reencontrar memórias; para os mais jovens, é descobrir as raízes de Mercedes. Uma verdadeira celebração da conexão entre o campo e a cidade!</p>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/1.png" alt="Local 1" /></div>
+          <div class="swiper-slide"><img src="img/2.png" alt="Local 2" /></div>
+          <div class="swiper-slide"><img src="img/3.png" alt="Local 3" />Sítio do Zé</div>
+          <div class="swiper-slide"><img src="img/4.png" alt="Local 4" />Lanchonete Rural</div>
+          <div class="swiper-slide"><img src="img/5.png" alt="Local 5" />Mirante das Palmeiras</div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer style="background-color: #3A6351; color: white; padding: 20px 0;">
+    <div style="text-align: center;">
+      <img src="img/logo2.png" alt="Logo Rota Rural Mercedes" style="max-width: 150px;" />
+      <p>&copy; 2025 Rota Rural Mercedes - Desenvolvido por Taynara Hasckel</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
